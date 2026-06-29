@@ -1,0 +1,49 @@
+ACADEMIA DO SERVIDOR — APP DE ESTUDOS (PWA)
+Técnico Administrativo · Prefeitura de Ponta Grossa · Concurso 003/2026
+============================================================
+
+Estes arquivos formam um aplicativo web instalável. Coloque TODOS juntos
+na mesma pasta e publique num endereço HTTPS. Depois é só "adicionar à
+tela inicial" no celular — ele abre em tela cheia, com ícone próprio.
+
+ARQUIVOS (mantenha todos na mesma pasta):
+  index.html ................ o app
+  manifest.webmanifest ...... identidade do app (nome, ícone, cor)
+  sw.js ..................... faz o app abrir rápido e funcionar offline
+  icon-192.png / icon-512.png
+  icon-maskable-512.png ..... ícone adaptável (Android)
+  apple-touch-icon.png ...... ícone do iPhone/iPad
+  favicon-16.png / favicon-32.png
+
+------------------------------------------------------------
+PUBLICAR NO GITHUB PAGES (recomendado pra você)
+------------------------------------------------------------
+1. Crie um repositório (ex.: "academia-pg") na sua conta LordDeadVader.
+2. Suba TODOS os arquivos desta pasta na raiz do repositório.
+3. Em Settings > Pages, selecione a branch "main" e pasta "/ (root)".
+4. Aguarde ~1 min. O endereço fica:
+   https://lorddeadvader.github.io/academia-pg/
+   (PWA exige HTTPS — o GitHub Pages já fornece, então funciona.)
+
+------------------------------------------------------------
+ADICIONAR À TELA INICIAL
+------------------------------------------------------------
+iPhone (Safari):
+  Abra o endereço > toque em Compartilhar (quadrado com seta) >
+  "Adicionar à Tela de Início" > Adicionar.
+
+Android (Chrome):
+  Abra o endereço > menu (3 pontos) > "Instalar app" ou
+  "Adicionar à tela inicial". Pode aparecer um aviso automático de instalar.
+
+Pronto: o ícone dourado "PG" aparece na tela inicial e abre em tela cheia.
+
+------------------------------------------------------------
+ATUALIZAR O APP DEPOIS
+------------------------------------------------------------
+Se um dia editar o index.html, abra o sw.js e troque a versão
+(CACHE = 'academia-pg-v1'  ->  '...-v2'). Isso força o celular a baixar
+a versão nova na próxima vez que abrir com internet.
+
+OBS: seu progresso, ofensiva (streak) e marcações ficam salvos no próprio
+aparelho/navegador. Use sempre o mesmo navegador para não perder o histórico.

@@ -1,0 +1,19 @@
+{
+  "name": "Academia do Servidor — Técnico Administrativo PG",
+  "short_name": "Academia PG",
+  "description": "Preparatório pessoal para o concurso de Técnico Administrativo de Ponta Grossa 2026.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0e1b2c",
+  "theme_color": "#0e1b2c",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
